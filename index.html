@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang=ru data-theme=dark>
+
+<head>
+    <meta charset=utf-8>
+    <!--[if IE]>    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <link rel="shortcut icon" href=favicon.ico>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    
+    
+    <link rel=stylesheet href=css/augmented-ui.min.css>
+    <link rel=stylesheet href=css/style.css>
+    <!--[if lt IE 9]>    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class=wrapper id=wrapper>
+        <aside class=sidebar>
+            <div class=menu>
+                <div class=menu__content>
+                    <div class=menu__button> <button class=menu__btn type=button><span class=menu__btn-line1></span><span class=menu__btn-line2></span><span class=menu__btn-line3></span></button> </div>
+                    <hr class=hr-top>
+                    <div class=menu__inner>
+                        <div class=menu__logo>
+                            <div class=menu__logo-content><span class=menu__logo-icon><i class=_icon-logo></i></span>
+                                <div class=menu__logo-text><span class=menu__logo-name>Вячеслав Грачев</span><span class=menu__logo-pos>web developer</span></div>
+                            </div>
+                        </div>
+                        <nav class=menu__nav id=nav>
+                            <ul class=menu__list>
+                                <li class=menu__item id=nav1 style="--clr: #f44336"><a class="menu__link _active" href=#about><span class=menu__icon><i class=_icon-about></i></span><span class=menu__text>Обо мне</span></a></li>
+                                <li class=menu__item id=nav2 style="--clr: #ffa117"><a class=menu__link href=#technology><span class=menu__icon><i class=_icon-skills></i></span><span class=menu__text>Технологии</span></a></li>
+                                <li class=menu__item id=nav3 style="--clr: #b145e9"><a class=menu__link href=#portfolio><span class=menu__icon><i class=_icon-portfolio></i></span><span class=menu__text>Портфолио</span></a></li>
+                                <li class=menu__item id=nav4 style="--clr: #2196f3"><a class=menu__link href=#contacts><span class=menu__icon><i class=_icon-contact></i></span><span class=menu__text>Контакты</span></a></li>
+                            </ul>
+                        </nav>
+                        <div class=menu__message>
+                            <div class=menu__message-content style="--clr: #0fc70f"><a class=menu__btn-message href=https://wa.me/79776165046><span class=menu__btn-icon><i class=_icon-message></i></span><span class=menu__btn-text>slagrach</span></a></div>
+                        </div>
+                    </div>
+                    <hr class=hr-bottom>
+                    <div class="sidebar-theme theme">
+                        <div class=theme__content>
+                            <div class=theme__block>
+                                <div class=theme__box><span class=theme__icon><i class=_icon-on></i><i class=_icon-off></i></span> <button class=theme__btn id=theme type=button><span class=theme__switch></span></button> </div>
+                            </div>
+                            <div class=switch><span class=switch__led-box><i class=switch__led-light></i><i class=switch__led-color id=light></i><i class=switch__led-glass></i></span> <label class=switch__label for=switch> <input class=switch__input id=switch type=checkbox autocomplete=off><span class=switch__btn> <svg class=scull version=1.1 xmlns=http://www.w3.org/2000/svg xlink=http://www.w3.org/1999/xlink x=0px y=0px width=20px height=20px viewBox="0 0 197 260" space=preserve>
+                                            <path id=scull d="M159.1,190.1c6.1-2.3,12.2,2.1,11.8,8.2l-1.7,25.8c-1.1,13.2-26.9,33.9-70.7,33.9c-45.2,0-69.7-20.7-70.7-33.9L26,198.5c-0.5-6.2,5.7-10.5,11.5-8.2c0.3,0,0.3,0,0.3,0c3.2,1.1,4.9,3.8,5.2,6.9l0.3,2.8c1.3,14,25.3,24.5,55.4,24.5s54-10.5,55.4-24.5l0.3-3C154.2,193.9,156.3,191.1,159.1,190.1C159.5,190.1,159.5,190.1,159.1,190.1z M193.5,107.7c-5.3,35-5.3,62.5-43.8,73.8l-1.3,13.5c-0.4,6.9-17.7,17.1-47.1,17.1c-0.9,0-3.7,0-4.5,0c-29.5,0-46.4-10.2-47.1-17.1l-1.3-13.5C8.9,170.2,8.9,142.6,3.6,107.7c-3.8-25.8-0.9-50.6,11.5-69.9C29.1,16.3,55.1,2,96.9,2c0.7,0,2.6,0,3.4,0c41.8,0,67.8,14.3,81.8,35.8C194.7,57.2,197.7,82.3,193.5,107.7z M84.2,129.4v-17.6c0-7.4-6.1-13.2-13.2-13.2H58c-13.2,0-24.2,11-24.2,24.2v13c0,7.4,6.1,13.2,13.2,13.2h17.3c10.7,0,19.6-8.6,19.6-19.6H84.2z M112.6,168.3l-8.2-18.7c-2.1-4.9-10.1-4.9-12.1,0l-8.2,18.7c-1.9,4.1,1.7,8.2,6.1,8.2h16.6C111.5,176.6,114.6,172.3,112.6,168.3z M163.8,136v-13c0-13.2-11-24.2-24.2-24.2h-13c-7.4,0-13.2,6.1-13.2,13.2v17.6c0,10.7,8.6,19.6,19.6,19.6h17.3c7.4,0,13.2-6.1,13.2-13.2H163.8z"></path>
+                                        </svg></span> </label><span class=switch__text>не нажимать</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class=content-scroll id=full-page>
+            <header class="_lp header" id=header>
+                <div class=header__container>
+                    <div class=header__content><a class="_link header__logo" href=# data-link=.wrapper></a> </div>
+                </div>
+            </header>
+            <main class=page id=main>
+                <div class=hero id=hero></div>
+                <div class=page__wrapper>
+                    <section class="_block about" id=about>
+                        <div class=about__container>
+                            <div class="_block_content box about__content">
+                                <div class=about__inner>
+                                    <div class=about__header>
+                                        <h2 class="title about__title" data-swiper-parallax=-200 data-text="Привет, меня зовут Вячеслав">Привет, меня зовут Вячеслав</h2>
+                                        <h3 class=about__subtitle data-swiper-parallax=-400></h3>
+                                    </div>
+                                    <div class=about__body> <button class="_open _icon-mail about__btn" type=button data-swiper-parallax=-600>Связь со мной</button> </div>
+                                </div>
+                                <div class=scroll-down style="--color: #333333"><span class=chevrons><i class=chevron-down></i><i class=chevron-down></i></span></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="_block technology" id=technology>
+                        <div class=technology__container>
+                            <div class="_block_content box technology__content">
+                                <div class=technology__header>
+                                    <h2 class="title technology__title" data-swiper-parallax=-200 data-text="Навыки и технологии">Навыки и технологии</h2>
+                                </div>
+                                <div class=technology__body>
+                                    <div class=technology__left>
+                                        <h3 class=technology__subtitle data-swiper-parallax=-300>В разработке использую следующие технологии:</h3>
+                                        <ul class=technology__list data-swiper-parallax=-400>
+                                            <li class=technology__item>- HTML (HTML5)</li>
+                                            <li class=technology__item>- CSS (CSS3, Flexbox, Grid)</li>
+                                            <li class=technology__item>- js (jQuery)</li>
+                                            <li class=technology__item>- БЭМ</li>
+                                        </ul>
+                                        <h3 class=technology__subtitle data-swiper-parallax=-500>Препроцессоры:</h3>
+                                        <ul class=technology__list data-swiper-parallax=-600>
+                                            <li class=technology__item>- Pug (Jade)</li>
+                                            <li class=technology__item>- SCSS (LESS, SASS)</li>
+                                        </ul>
+                                        <h3 class=technology__subtitle data-swiper-parallax=-700>Сборщики:</h3>
+                                        <ul class=technology__list data-swiper-parallax=-800>
+                                            <li class=technology__item>- Gulp</li>
+                                            <li class=technology__item>- Webpack</li>
+                                        </ul>
+                                        <h3 class=technology__subtitle data-swiper-parallax=-900>Верстаю из:</h3>
+                                        <ul class=technology__list data-swiper-parallax=-1000>
+                                            <li class=technology__item>- PSD</li>
+                                            <li class=technology__item>- Sketch</li>
+                                            <li class=technology__item>- Figma</li>
+                                            <li class=technology__item>- Zeplin</li>
+                                            <li class=technology__item>- Adobe XD</li>
+                                        </ul><small class=technology__note data-swiper-parallax=-1100>*Вёрстка кроссбраузерная, валидная, адаптивная (отзывчивость(responsive), 'резина')</small>
+                                    </div>
+                                    <div class=technology__right>
+                                        <h3 class="technology__subtitle technology__subtitle_right" data-swiper-parallax=-250 data-swiper-parallax-duration=3000>Уровень владения</h3>
+                                        <div class=technology__inner-wrapper>
+                                            <div class=technology__inner-content id=inner>
+                                                <div class="technology__inner-side _left"></div>
+                                                <div class="technology__inner-side _right"></div>
+                                                <div class="technology__inner-side _top"></div>
+                                                <div class="technology__inner-side _bottom"></div>
+                                                <div class="technology__inner-side _front">
+                                                    <div class=skill-progress data-swiper-parallax=300 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-1">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=320 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-2">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=340 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-3">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=360 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-4">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=380 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-5">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=400 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-6">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=420 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-7">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class=skill-progress data-swiper-parallax=440 data-swiper-parallax-duration=3000>
+                                                        <div class="circle circle-8">
+                                                            <div class=mask></div>
+                                                            <div class=mask></div>
+                                                        </div>
+                                                        <div class=inset>
+                                                            <div class=numbers></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><span></span>
+                                    </div>
+                                </div>
+                                <div class=technology__bottom>
+                                    <div class=scroll-down style="--color: #333333"><span class=chevrons><i class=chevron-down></i><i class=chevron-down></i></span><span class="chevrons chevrons_two"><i class="chevron-down chevron-down_two"></i><i class="chevron-down chevron-down_two"></i></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="_block portfolio" id=portfolio>
+                        <div class=portfolio__container>
+                            <div class="_block_content box portfolio__content">
+                                <div class=portfolio__header>
+                                    <h2 class="title portfolio__title" data-swiper-parallax=-200 data-text="Мои работы">Мои работы</h2>
+                                </div>
+                                <div class=portfolio__body>
+                                    <div class=portfolio__scroll>
+                                        <div class=portfolio__items id=i></div>
+                                    </div> <button class=portfolio__btn id=btn type=button data-swiper-parallax=-400>Показать ещё</button>
+                                </div>
+                                <div class=scroll-down style="--color: #333333"><span class=chevrons><i class=chevron-down></i><i class=chevron-down></i></span><span class="chevrons chevrons_two"><i class="chevron-down chevron-down_two"></i><i class="chevron-down chevron-down_two"></i></span></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="_block contact" id=contacts>
+                        <div class=contact__container>
+                            <div class="_block_content box contact__content">
+                                <div class=contact__header>
+                                    <h2 class="title contact__title" data-swiper-parallax=-200 data-text=Контакты>Контакты</h2><span class=contact__subtitle></span>
+                                </div>
+                                <div class=contact__body data-swiper-parallax=-400>
+                                    <div class=contact__left data-augmented-ui="tl-2-clip-x tr-rect-x b-rect-x br-rect-x bl-clip border">
+                                        <div class=contact__left-body>
+                                            <div class=contact__left-inner>
+                                                <div class=contact__img>
+                                                    <span>contacts</span>
+                                                </div>
+                                                <div class=contact__items>
+                                                    <div class=contact__item_overflow>
+                                                        <div class=contact__item data-augmented-ui="tl-2-clip-x b-rect-x bl-clip  border"><a class="contact__item-link _icon-mail-open" href=mailto:slagrach@gmail.com target=_blank><span>slagrach@gmail.com</span></a></div>
+                                                    </div>
+                                                    <div class=contact__item data-augmented-ui="tl-2-clip-x bl-clip border"><a class="_icon-telegram contact__item-link" href=https://t.me/Slagrach target=_blank><span>telegram</span></a></div>
+                                                    <div class=contact__item data-augmented-ui="tl-2-clip-x bl-clip border"><a class="contact__item-link _icon-whatsapp" href=https://wa.me/79776165046 target=_blank><span>whatsapp</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=contact__right>
+                                        <div class=contact__right-body>
+                                            <form class="form contact__form" id=form action=# method=POST enctype=multipart/form-data autocomplete=off>
+                                                <div class=form__item> <input class="form__input form__input_name" id=name name=name required=""> <label class="form__label form__label_one" for=name></label>
+                                                    
+                                                </div><span class="cyberpunk glitched"></span>
+                                                <div class=form__item> <input class="form__input form__input_email" id=email type=email name=email required=""> <label class="form__label form__label_two" for=email></label>
+                                                    
+                                                </div><span class=form__hr></span>
+                                                <div class=form__item> <input class="form__input form__input_tel" id=tel type=tel name=tel required=""> <label class="form__label form__label_three" for=tel></label>
+                                                    
+                                                </div><span class=form__hr></span>
+                                                <div class="form__item form__item_textarea"> <textarea class="form__textarea form__textarea_message" id=message name=message required=""></textarea> <label class="form__label form__label_four" for=message></label>
+                                                    
+                                                </div>
+                                                <div class=form__buttons> <button class="form__button form__button_reset" id=reset type=reset><span class=form__button-text>сброс_</span><span class=form__button-glitch>сброс_</span><span class=form__button-tag>R19</span></button> <button class="form__button form__button_send" type=submit><span class=form__button-text>отправить_</span><span class=form__button-glitch>отправить_</span><span class=form__button-tag>R05</span></button> </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=scroll-down style="--color: #333333"><span class=chevrons><i class=chevron-down></i><i class=chevron-down></i></span></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class=page__pagination></div>
+                <div class=page__scroll></div>
+            </main>
+            <footer class=footer id=footer>
+                <div class=footer__container>
+                    <div class=footer__content>
+                        <div class=footer__info><span class=footer__copy>2022<span>©</span>slagrach</span></div> <button class="_open footer__logo" type=button>Vyacheslav Grachev</button>
+                        <div class=footer__social>
+                            <ul class=footer__list>
+                                <li class=footer__item><a class="footer__link _icon-mail-open" href=mailto:slagrach@gmail.com target=_blank style="--clr: #ffa117"></a></li>
+                                <li class=footer__item><a class="_icon-telegram footer__link" href=https://t.me/Slagrach target=_blank style="--clr: #ffa117"></a></li>
+                                <li class=footer__item><a class="footer__link _icon-whatsapp" href=https://wa.me/79776165046 target=_blank style="--clr: #ffa117"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <ul class=anime>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+                <li class=anime__li></li>
+            </ul>
+        </div>
+    </div>
+    <dialog class=modal>
+        <div class=modal__line-top></div>
+        <div class=modal__content> <button class="_close modal__close" type=button> <svg id=cross version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px viewbox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space=preserve>
+                    <polygon points="456.851,0 245,212.564 33.149,0 0.708,32.337 212.669,245.004 0.708,457.678 33.149,490 245,277.443 456.851,490 489.292,457.678 277.331,245.004 489.292,32.337 "></polygon>
+                </svg> </button>
+            <div class=modal__scroll>
+                <div class=modal__top>
+                    <div class=modal__line></div>
+                </div>
+                <div class=modal__body>
+                    <div class=modal__header>
+                        <h2 class=modal__title>Пишите звоните!</h2><span class=modal__subtitle>&Vcy;&ocy;&scy;&pcy;&ocy;&lcy;&softcy;&zcy;&ucy;&jcy;&tcy;&iecy;&scy;&softcy; &ucy;&dcy;&ocy;&bcy;&ncy;&ycy;&mcy; &dcy;&lcy;&yacy; &vcy;&acy;&scy; &scy;&pcy;&ocy;&scy;&ocy;&bcy;&ocy;&mcy; &scy;&vcy;&yacy;&zcy;&icy;</span>
+                    </div>
+                    <div class=modal__inner>
+                        <div class=modal__left>
+                            <form class="form modal__form" id=form-two action=# method=POST>
+                                 <input type=hidden name=project_name value=slagrach.ru> <input type=hidden name=admin_email value=zloi.slagrach@yandex.ru> <input type=hidden name=form_subject value="modal form"> 
+                                <div class=form__item> <label for=name-two></label> <input class=form__name id=name-two name=name-two required=""><span class=form__label>имя</span><span class=form__line></span> </div>
+                                <div class=form__item> <label for=mail-two></label> <input class=form__email id=mail-two name=email-two required=""><span class=form__label>почта</span><span class=form__line></span> </div>
+                                <div class=form__item> <label for=phone-two></label> <input class=form__phone id=phone-two name=phone-two required=""><span class=form__label>телефон</span><span class=form__line></span> </div>
+                                <div class="form__item form__item_lust"> <label for=text-two></label> <textarea class=form__text id=text-two name=text-two required=""></textarea><span class=form__label>сообщение</span><span class=form__line></span> </div>
+                                <div class=form__buttons> <button class="form__btn form__btn_clean" type=reset></button> <button class="form__btn form__btn_send" type=submit></button> </div>
+                            </form>
+                        </div>
+                        <div class=modal__right>
+                            <div class=modal__items>
+                                <div class=modal__item style="--clr: #2196f3"><i class="modal__icon _icon-email"></i><a class=modal__email href=mailto:slagrach@gmail.com>slagrach@gmail.com</a></div>
+                                <div class=modal__item style="--clr: #2196f3"><i class="modal__icon _icon-phone"></i><a class=modal__phone href=tel:79776165046>+7(977)616-50-46</a></div>
+                                <div class=modal__item style="--clr: #2196f3"><i class="_icon-telegram modal__icon"></i><a class=modal__telegram href="tg://resolve?domain=slagrach">slagrach</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>
+    <script>
+        window.jQuery || document.write('<script src="js/apps/jquery-1.11.0.min.js"><\/script>')
+    </script>
+    <script src=js/apps/jquery.mCustomScrollbar.js></script>
+    
+    <script src=js/apps/swiper-bundle.min.js></script>
+    <script src=js/module.js></script>
+    
+    <script src=js/index.js></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+{
+	"cards": [
+		{
+			"id": 1,
+			"image": "images/biceMini.png",
+			"imageLink": "images/biceFull.png",
+			"title": "Bice"
+		},
+		{
+			"id": 2,
+			"image": "images/cubeMini.png",
+			"imageLink": "images/cubeFull.png",
+			"title": "Куб"
+		},
+		{
+			"id": 3,
+			"image": "images/adspuppyMini.png",
+			"imageLink": "images/adspuppyFull.png",
+			"title": "Adspuppy"
+		},
+		{
+			"id": 4,
+			"image": "images/schwingMini.png",
+			"imageLink": "images/schwingFull.png",
+			"title": "Schwing"
+		},
+		{
+			"id": 5,
+			"image": "images/esteticMini.png",
+			"imageLink": "images/esteticFull.png",
+			"title": "Ол-эстетик.лаб"
+		},
+		{
+			"id": 6,
+			"image": "images/galaxyMini.jpg",
+			"imageLink": "images/galaxyFull.jpeg",
+			"title": "Созвездие"
+		},
+		{
+			"id": 7,
+			"image": "images/garantMini.png",
+			"imageLink": "images/garantFull.png",
+			"title": "Гарант"
+		},
+		{
+			"id": 8,
+			"image": "images/carpetsMini.png",
+			"imageLink": "images/carpetsFull.png",
+			"title": "Аренда ковров"
+		},
+		{
+			"id": 9,
+			"image": "images/mercyMini.png",
+			"imageLink": "images/mercyFull.png",
+			"title": "Mercy"
+		},
+		{
+			"id": 10,
+			"image": "images/garmoniyaMini.png",
+			"imageLink": "images/garmoniyaFull.png",
+			"title": "Garmoniya"
+		},
+		{
+			"id": 11,
+			"image": "images/zabeiMini.png",
+			"imageLink": "images/zabeiFull.png",
+			"title": "Забей"
+		},
+		{
+			"id": 12,
+			"image": "images/bwMini.png",
+			"imageLink": "images/bwFull.png",
+			"title": "B&W"
+		},
+		{
+			"id": 13,
+			"image": "images/crowndmeMini.png",
+			"imageLink": "images/crowndmeFull.png",
+			"title": "Crowdme"
+		},
+		{
+			"id": 14,
+			"image": "images/daisyMini.png",
+			"imageLink": "images/daisyFull.png",
+			"title": "Daisy"
+		},
+		{
+			"id": 15,
+			"image": "images/steelMini.png",
+			"imageLink": "images/steelFull.png",
+			"title": "Северсталь"
+		},
+		{
+			"id": 16,
+			"image": "images/kouzyMini.png",
+			"imageLink": "images/kouzyFull.png",
+			"title": "Коузи74"
+		},
+		{
+			"id": 17,
+			"image": "images/mnevodaMini.png",
+			"imageLink": "images/mnevodaFull.png",
+			"title": "Жемчужный край"
+		},
+		{
+			"id": 18,
+			"image": "images/monolitMini.png",
+			"imageLink": "images/monolitFull.png",
+			"title": "Mary's house"
+		},
+		{
+			"id": 19,
+			"image": "images/neroMini.png",
+			"imageLink": "images/neroFull.png",
+			"title": "Nero"
+		},
+		{
+			"id": 20,
+			"image": "images/onehost.jpeg",
+			"imageLink": "images/onehostFull.jpeg",
+			"title": "Onehost"
+		},
+		{
+			"id": 21,
+			"image": "images/potolokMini.png",
+			"imageLink": "images/potolokFull.png",
+			"title": "Потол'ОК"
+		},
+		{
+			"id": 22,
+			"image": "images/sanicsMini.png",
+			"imageLink": "images/sanicsFull.png",
+			"title": "Саникс"
+		},
+		{
+			"id": 23,
+			"image": "images/serv.hostMini.png",
+			"imageLink": "images/serv.hostFull.png",
+			"title": "Serv.host"
+		},
+		{
+			"id": 24,
+			"image": "images/studioMini.png",
+			"imageLink": "images/studioFull.png",
+			"title": "Studio8"
+		},
+		{
+			"id": 25,
+			"image": "images/toxinMini.png",
+			"imageLink": "images/toxinFull.png",
+			"title": "Toxin"
+		},
+		{
+			"id": 26,
+			"image": "images/brainscloudMini.png",
+			"imageLink": "images/brainscloudFull.png",
+			"title": "Brainscloud"
+		},
+		{
+			"id": 27,
+			"image": "images/fastsearchMini.png",
+			"imageLink": "images/fastsearchFull.png",
+			"title": "Fastsearch"
+		},
+		{
+			"id": 28,
+			"image": "images/mavicMini.png",
+			"imageLink": "images/mavicFull.png",
+			"title": "Mavic"
+		},
+		{
+			"id": 29,
+			"image": "images/tedistourMini.png",
+			"imageLink": "images/tedistourFull.png",
+			"title": "Tedis Tour"
+		},
+		{
+			"id": 30,
+			"image": "images/grossmarketMini.png",
+			"imageLink": "images/grossmarketFull.png",
+			"title": "Гросс Маркет"
+		},
+		{
+			"id": 31,
+			"image": "images/fusoMini.png",
+			"imageLink": "images/fusoFull.png",
+			"title": "FUSO"
+		},
+		{
+			"id": 32,
+			"image": "images/gravityMini.png",
+			"imageLink": "images/gravityFull.png",
+			"title": "Невесомость"
+		},
+		{
+			"id": 33,
+			"image": "images/scaniaMini.png",
+			"imageLink": "images/scaniaFull.png",
+			"title": "SCANIA"
+		},
+		{
+			"id": 34,
+			"image": "images/sovinterMini.png",
+			"imageLink": "images/sovinterFull.png",
+			"title": "СовИнтерАвтоСервис"
+		}
+	]
+}
