@@ -702,11 +702,8 @@ worksWrapper.mCustomScrollbar();
 if (isMobile.any()) {
   sections.mCustomScrollbar("destroy");
   worksWrapper.mCustomScrollbar("destroy"); // $("main.page").css('overflow', 'auto')
+  // $("main.page").css({'overflow': 'auto'});
 
-  $("main.page").css({
-    'overflow': 'auto',
-    'width': '100%'
-  });
   $("footer").css({
     'width': '100%'
   }); // $("._block_content").css('height', '100%');
@@ -761,112 +758,121 @@ $("nav li a").each(function () {
     return false;
   });
 });
-var pageSlider = new Swiper(".page", {
-  // Свои классы
-  wrapperClass: "page__wrapper",
-  slideClass: "_block",
-  // Вертикальный слайдер
-  // direction: 'vertical',
-  direction: "horizontal",
-  breakpoints: {},
-  // Количество слайдов для показа
-  slidesPerView: "auto",
-  // Включаем параллакс
-  parallax: true,
-  // Управление клавиатурой
-  keyboard: {
-    // Включить\выключить
-    enabled: true,
-    // Включить\выключить
-    // только когда слайдер
-    // в пределах вьюпорта
-    onlyInViewport: true,
-    // Включить\выключить
-    // управление клавишами
-    // pageUp, pageDown
-    pageUpDown: true
-  },
-  // Управление колесом мыши
-  mousewheel: {
-    // Чувствительность колеса мыши
-    sensitivity: 1 // Класс объекта на котором
-    // будет срабатывать прокрутка мышью.
-    //eventsTarget: ".image-slider"
-
-  },
-  // Отключение функционала
-  // если слайдов меньше чем нужно
-  watchOverflow: true,
-  // Скорость
-  speed: 2000,
-  // Обновить свайпер
-  // при изменении элементов слайдера
-  observer: true,
-  // Обновить свайпер
-  // при изменении родительских
-  // элементов слайдера
-  observeParents: true,
-  // Обновить свайпер
-  // при изменении дочерних
-  // элементов слайда
-  observeSlideChildren: true,
-  // Навигация
-  // Буллеты, текущее положение, прогрессбар
-  pagination: {
-    el: ".page__pagination",
-    type: "bullets",
-    clickable: true,
-    bulletClass: "page__bullet",
-    bulletActiveClass: "page__bullet_active"
-  },
-  // Скролл
-  scrollbar: {
-    el: ".page__scroll",
-    dragClass: "page__drag-scroll",
-    // Возможность перетаскивать скролл
-    draggable: true
-  },
-  // Отключаем автоинициализацию
-  init: false,
-  // События
-  on: {
-    // Событие инициализации
-    init: function init() {
-      menuSlider();
-      setScrollType();
-      wrapper.classList.add("_loaded");
-    },
-    // Событие смены слайда
-    slideChange: function slideChange() {
-      menuSliderRemove();
-      menuLinks[pageSlider.realIndex].classList.add("_active");
-    },
-    resize: function resize() {
-      setScrollType();
-    }
-  }
-});
 var menuLinks = document.querySelectorAll(".menu__link");
-
-function menuSlider() {
-  if (menuLinks.length > 0) {
-    menuLinks[pageSlider.realIndex].classList.add("_active");
-
-    var _loop = function _loop(index) {
-      var menuLink = menuLinks[index];
-      menuLink.addEventListener("click", function (e) {
-        menuSliderRemove();
-        pageSlider.slideTo(index, 800);
-        menuLink.classList.add("_active");
-        e.preventDefault();
-      });
-    };
-
-    for (var index = 0; index < menuLinks.length; index++) {
-      _loop(index);
-    }
-  }
-}
+var pageSlider;
+var slider = document.querySelector('.page'); // pageSlider = new Swiper(slider, {
+// 	// Свои классы
+// 	wrapperClass: "page__wrapper",
+// 	slideClass: "_block",
+//
+// 	// Вертикальный слайдер
+// 	// direction: 'vertical',
+// 	direction: "horizontal",
+//
+// 	breakpoints: {},
+// 	// Количество слайдов для показа
+// 	slidesPerView: "auto",
+//
+// 	// Включаем параллакс
+// 	parallax: true,
+//
+// 	// Управление клавиатурой
+// 	keyboard: {
+// 		// Включить\выключить
+// 		enabled: true,
+// 		// Включить\выключить
+// 		// только когда слайдер
+// 		// в пределах вьюпорта
+// 		onlyInViewport: true,
+// 		// Включить\выключить
+// 		// управление клавишами
+// 		// pageUp, pageDown
+// 		pageUpDown: true,
+// 	},
+//
+// 	// Управление колесом мыши
+// 	mousewheel: {
+// 		// Чувствительность колеса мыши
+// 		sensitivity: 1,
+// 		// Класс объекта на котором
+// 		// будет срабатывать прокрутка мышью.
+// 		//eventsTarget: ".image-slider"
+// 	},
+//
+// 	// Отключение функционала
+// 	// если слайдов меньше чем нужно
+// 	watchOverflow: true,
+//
+// 	// Скорость
+// 	speed: 2000,
+//
+// 	// Обновить свайпер
+// 	// при изменении элементов слайдера
+// 	observer: true,
+//
+// 	// Обновить свайпер
+// 	// при изменении родительских
+// 	// элементов слайдера
+// 	observeParents: true,
+//
+// 	// Обновить свайпер
+// 	// при изменении дочерних
+// 	// элементов слайда
+// 	observeSlideChildren: true,
+//
+// 	// Навигация
+// 	// Буллеты, текущее положение, прогрессбар
+// 	pagination: {
+// 		el: ".page__pagination",
+// 		type: "bullets",
+// 		clickable: true,
+// 		bulletClass: "page__bullet",
+// 		bulletActiveClass: "page__bullet_active",
+// 	},
+// 	// Скролл
+// 	scrollbar: {
+// 		el: ".page__scroll",
+// 		dragClass: "page__drag-scroll",
+// 		// Возможность перетаскивать скролл
+// 		draggable: true,
+// 	},
+//
+// 	// Отключаем автоинициализацию
+// 	init: false,
+//
+// 	// События
+// 	on: {
+// 		// Событие инициализации
+// 		init: function () {
+// 			menuSlider();
+// 			setScrollType();
+// 			wrapper.classList.add("_loaded");
+// 		},
+// 		// Событие смены слайда
+// 		slideChange: function () {
+// 			menuSliderRemove();
+// 			menuLinks[pageSlider.realIndex].classList.add("_active");
+// 		},
+// 		resize: function () {
+// 			setScrollType();
+// 		},
+// 	},
+// });
+// function menuSlider() {
+// 	if (menuLinks.length > 0) {
+// 		menuLinks[pageSlider.realIndex].classList.add("_active");
+// 		for (let index = 0; index < menuLinks.length; index++) {
+// 			const menuLink = menuLinks[index];
+// 			menuLink.addEventListener("click", function (e) {
+// 				// menuSliderRemove();
+// 				pageSlider.slideTo(index, 800);
+// 				menuLink.classList.add("_active");
+// 				e.preventDefault();
+// 			});
+// 		}
+// 	}
+// }
+//
 
 function menuSliderRemove() {
   var menuLinkActive = document.querySelector(".menu__link._active");
@@ -874,77 +880,126 @@ function menuSliderRemove() {
   if (menuLinkActive) {
     menuLinkActive.classList.remove("_active");
   }
-}
+} //
+// function setScrollType() {
+// 	if (wrapper.classList.contains("_free")) {
+// 		wrapper.classList.remove("_free");
+// 		pageSlider.params.freeMode = false;
+// 	}
+// 	for (let index = 0; index < pageSlider.slides.length; index++) {
+// 		const pageSlide = pageSlider.slides[index];
+// 		const pageSlideContent = pageSlide.querySelector("._block_content");
+// 		if (pageSlideContent) {
+// 			const pageSlideContentHeight = pageSlideContent.offsetHeight;
+// 			if (pageSlideContentHeight > window.innerHeight) {
+// 				wrapper.classList.add("_free");
+// 				pageSlider.params.freeMode = true;
+// 				break;
+// 			}
+// 		}
+// 	}
+// }
 
-function setScrollType() {
-  if (wrapper.classList.contains("_free")) {
-    wrapper.classList.remove("_free");
-    pageSlider.params.freeMode = false;
-  }
-
-  for (var index = 0; index < pageSlider.slides.length; index++) {
-    var pageSlide = pageSlider.slides[index];
-    var pageSlideContent = pageSlide.querySelector("._block_content");
-
-    if (pageSlideContent) {
-      var pageSlideContentHeight = pageSlideContent.offsetHeight;
-
-      if (pageSlideContentHeight > window.innerHeight) {
-        wrapper.classList.add("_free");
-        pageSlider.params.freeMode = true;
-        break;
-      }
-    }
-  }
-}
 
 function funSwitch() {
   var wrapper = document.querySelector(".wrapper");
   var wrapperMain = document.querySelector("main");
   var checkbox = document.getElementById("switch");
+  var atr = document.querySelectorAll('*[data-swiper-parallax]');
 
   if (checkbox.checked) {
     wrapper.classList.add("on");
-    pageSlider.init();
-    menuSlider();
-    var menuLinkss = document.querySelectorAll(".menu__link");
+    pageSlider = new Swiper(slider, {
+      wrapperClass: "page__wrapper",
+      slideClass: "_block",
+      direction: "horizontal",
+      speed: 2000,
+      parallax: true,
+      slidesPerView: "auto",
+      observer: true,
+      observeParents: true,
+      observeSlideChildren: true,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+        pageUpDown: true
+      },
+      mousewheel: {
+        sensitivity: 1
+      },
+      pagination: {
+        el: ".page__pagination",
+        type: "bullets",
+        clickable: true,
+        bulletClass: "page__bullet",
+        bulletActiveClass: "page__bullet_active"
+      },
+      scrollbar: {
+        el: ".page__scroll",
+        dragClass: "page__drag-scroll",
+        draggable: true
+      },
+      on: {}
+    });
+    var menuLinks = document.querySelectorAll(".menu__link");
+    pageSlider.on(function () {
+      if (menuLinks.length > 0) {
+        menuLinks[pageSlider.realIndex].classList.add("_active");
 
-    for (var i = 0; i < menuLinkss.length; i++) {
-      if (menuLinkss[i].closest('._active')) {
-        menuLinkss[i].classList.remove('_active');
-      }
+        var _loop = function _loop(index) {
+          var menuLink = menuLinks[index];
+          menuLink.addEventListener("click", function (e) {
+            console.log(menuLink);
+            menuSliderRemove();
+            pageSlider.slideTo(index, 800);
+            menuLink.classList.add("_active");
+            e.preventDefault();
+          });
+        };
 
-      if (wrapper.closest('.on')) {
-        menuLinkss[0].classList.add('_active');
-      } else {
-        console.log(false);
+        for (var index = 0; index < menuLinks.length; index++) {
+          _loop(index);
+        }
       }
-    }
+    });
+    pageSlider.on('slideChange', function () {
+      menuSliderRemove();
+      menuLinks[pageSlider.realIndex].classList.add("_active");
+    });
+    resetClassActive('.on');
   } else {
-    wrapper.classList.remove("on");
-    pageSlider.destroy();
-    window.location.reload();
+    wrapper.classList.remove("on"); // window.location.reload();
+
+    resetClassActive();
+    pageSlider.destroy(true, true);
+    removeParallaxStyle();
+  }
+
+  function removeParallaxStyle() {
+    atr.forEach(function (el) {
+      el.removeAttribute('style');
+    });
+  }
+}
+
+function resetClassActive(on) {
+  for (var i = 0; i < menuLinks.length; i++) {
+    if (menuLinks[i].closest('._active')) {
+      menuLinks[i].classList.remove('_active');
+    }
+
+    if (wrapper.closest(on)) {
+      menuLinks[0].classList.add('_active');
+    }
+
+    menuLinks[0].classList.add('_active');
   }
 }
 
 var switchInput = document.querySelector(".switch__input");
 switchInput.addEventListener("change", funSwitch);
 var cA = document.getElementById('technology');
-if (document.getElementById('technology').classList.contains('swiper-slide-active')) document.getElementById('technology').classList.toggle('go'); // var atr = document.querySelectorAll('*[data-swiper-parallax]');
-// 	// console.log(atr)
-// 	function test() {
-// 		atr.forEach(el => {
-// 		  el.style.transform = 'unset';
-// 		});
-// 	  };
-// 	  test();
-// var ti = document.getElementById('inner').classList.contains('_visible');
-// var sp = document.querySelectorAll('.skill-progress');
-// for (var i = 0; i < sp.length; i++) {
-// 	if (ti)
-// 		sp[i].classList.add('go');
-// }
-
+if (document.getElementById('technology').classList.contains('swiper-slide-active')) document.getElementById('technology').classList.toggle('go');
 var foot = document.querySelector('footer');
 var wrap = document.querySelector('.wrapper');
 var sidebar = document.querySelector('.sidebar');
