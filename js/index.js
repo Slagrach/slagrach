@@ -984,18 +984,18 @@ function funSwitch() {
 
     resetClassActive();
     pageSlider.destroy(true, true);
-    removeParallaxStyle();
-    document.querySelectorAll("a[href^=\"#\"]").forEach(function (anchor) {
-      anchor.addEventListener("click", function (ev) {
-        ev.preventDefault();
-        var targetElement = document.querySelector(this.getAttribute("href"));
-        targetElement.scrollIntoView({
-          block: "start",
-          alignToTop: true,
-          behavior: "smooth"
-        });
-      });
-    });
+    removeParallaxStyle(); // document.querySelectorAll("a[href^=\"#\"]").forEach((anchor) => {
+    // 	anchor.addEventListener("click", function (ev) {
+    // 		ev.preventDefault();
+    //
+    // 		const targetElement = document.querySelector(this.getAttribute("href"));
+    // 		targetElement.scrollIntoView({
+    // 			block: "start",
+    // 			alignToTop: true,
+    // 			behavior: "smooth"
+    // 		});
+    // 	});
+    // });
   }
 
   function removeParallaxStyle() {
@@ -1006,9 +1006,9 @@ function funSwitch() {
 }
 
 function resetClassActive(on) {
-  for (var i = 0; i < menuLinks.length; i++) {
-    if (menuLinks[i].closest("._active")) {
-      menuLinks[i].classList.remove("_active");
+  for (var _i = 0; _i < menuLinks.length; _i++) {
+    if (menuLinks[_i].closest("._active")) {
+      menuLinks[_i].classList.remove("_active");
     }
 
     if (wrapper.closest(on)) {
@@ -1055,7 +1055,52 @@ if (isMobile.any()) {
   removeParallaxStyle(skillProgress);
   var windowInnerHeight = window.innerHeight;
   var resize = windowInnerHeight - 164;
-  document.querySelector('.portfolio__scroll').style.maxHeight = resize + 'px';
+  document.querySelector('.portfolio__scroll').style.maxHeight = resize + 'px'; // document.querySelectorAll("a[href^=\"#\"]").forEach((anchor) => {
+  // 	anchor.addEventListener("click", function (ev) {
+  // 		ev.preventDefault();
+  //
+  // 		const targetElement = document.querySelector(this.getAttribute("href"));
+  // 		targetElement.scrollIntoView({
+  // 			block: "start",
+  // 			// alignToTop: true,
+  // 			behavior: "smooth"
+  // 		});
+  // 	});
+  // });
+
+  var linkNav = document.querySelectorAll('[href^="#"]'),
+      //выбираем все ссылки к якорю на странице
+  V = 2; // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+
+  for (var i = 0; i < linkNav.length; i++) {
+    linkNav[i].addEventListener('click', function (e) {
+      //по клику на ссылку
+      e.preventDefault(); //отменяем стандартное поведение
+
+      var w = window.pageYOffset,
+          // производим прокрутка прокрутка
+      hash = this.href.replace(/[^#]*(.*)/, '$1'); // к id элемента, к которому нужно перейти
+
+      var t;
+      var start;
+      t = document.querySelector(hash).getBoundingClientRect().top, // отступ от окна браузера до id
+      start = null;
+      requestAnimationFrame(step); // подробнее про функцию анимации [developer.mozilla.org]
+
+      function step(time) {
+        if (start === null) start = time;
+        var progress = time - start,
+            r = t < 0 ? Math.max(w - progress / V, w + t) : Math.min(w + progress / V, w + t);
+        window.scrollTo(0, r);
+
+        if (r !== w + t) {
+          requestAnimationFrame(step);
+        } else {
+          location.hash = hash; // URL с хэшем
+        }
+      }
+    }, false);
+  }
 } else {
   tiltContent.vanillaTilt || vanilla_tilt__WEBPACK_IMPORTED_MODULE_0___default().init(tiltContent, {
     max: 10,
@@ -1220,16 +1265,14 @@ function showHide() {
   // 		}
   // 	});
   // }
-
-  function scrollMobile() {}
-
-  var checkbox = document.getElementById("switch");
-
-  if (checkbox.checked) {
-    scrollMobile = undefined;
-  } else {
-    scrollMobile();
-  }
+  // function scrollMobile () {
+  // }
+  // var checkbox = document.getElementById("switch");
+  // if (checkbox.checked) {
+  // 	scrollMobile = undefined;
+  // } else {
+  // 	scrollMobile();
+  // }
 }
 
 var page = document.querySelector(".page");
