@@ -11725,7 +11725,7 @@ header {
 
 .portfolio__scroll {
   width: 100%;
-  max-height: 315px;
+  max-height: 400px;
   height: 100%;
   margin: 0 0 25px;
 }
@@ -11757,11 +11757,15 @@ header {
   position: relative;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 20px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+  padding: 0 0 5px;
 }
 
 .portfolio__item {
@@ -11826,7 +11830,7 @@ header {
   overflow: hidden;
   -webkit-box-shadow: 0 5px 8px 0 rgba(0,0,0,.2),0 7px 20px 0 rgba(0,0,0,.17);
           box-shadow: 0 5px 8px 0 rgba(0,0,0,.2),0 7px 20px 0 rgba(0,0,0,.17);
-  margin: 0 0 30px;
+  margin-bottom: 20px;
   -webkit-transition: all .4s ease 0s;
   -o-transition: all .4s ease 0s;
   transition: all .4s ease 0s;
@@ -11834,8 +11838,22 @@ header {
 }
 
 .item__title {
+  position: relative;
   font-family: Jura,monospace,sans-serif;
   font-weight: 700;
+}
+
+.item__title:before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: #3f3f3f;
+  z-index: 0;
+  -webkit-transition: width .4s ease 0s;
+  -o-transition: width .4s ease 0s;
+  transition: width .4s ease 0s;
 }
 
 :root {
@@ -20876,6 +20894,13 @@ body:not(.is-using-mouse) .fancybox__container :focus {
     margin-bottom: calc(25px + 25*((100vw - 320px)/960));
   }
 
+  .portfolio__items {
+    -webkit-column-gap: calc(0px + 20*((100vw - 320px)/960));
+       -moz-column-gap: calc(0px + 20*((100vw - 320px)/960));
+            column-gap: calc(0px + 20*((100vw - 320px)/960));
+    row-gap: calc(15px + 5*((100vw - 320px)/960));
+  }
+
   .portfolio__btn {
     width: calc(200px + 50*((100vw - 320px)/960));
     height: calc(40px + 10*((100vw - 320px)/960));
@@ -20883,6 +20908,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 
   .item__picture {
     height: calc(200px + 50*((100vw - 320px)/960));
+    margin-bottom: calc(15px + 5*((100vw - 320px)/960));
   }
 
   .contact__header {
@@ -20989,6 +21015,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
     -webkit-transform: unset;
         -ms-transform: unset;
             transform: unset;
+  }
+
+  .portfolio__items {
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   }
 
   .scroll-down {
@@ -21526,6 +21556,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
     -webkit-transform: translateY(-5px);
         -ms-transform: translateY(-5px);
             transform: translateY(-5px);
+  }
+
+  .item__title:hover:before {
+    width: 0%;
   }
 
   .contact__body:hover .contact__left {

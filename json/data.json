@@ -4,205 +4,239 @@
 			"id": 1,
 			"image": "images/biceMini.png",
 			"imageLink": "images/biceFull.png",
-			"title": "Bice"
+			"title": "Bice",
+			"link": "https://bice-russia.ru/ru/"
 		},
 		{
 			"id": 2,
 			"image": "images/cubeMini.png",
 			"imageLink": "images/cubeFull.png",
-			"title": "Куб"
+			"title": "Куб",
+			"link": "https://good-people-studio.ru/cube/"
 		},
 		{
 			"id": 3,
 			"image": "images/adspuppyMini.png",
 			"imageLink": "images/adspuppyFull.png",
-			"title": "Adspuppy"
+			"title": "Adspuppy",
+			"link": "#"
 		},
 		{
 			"id": 4,
 			"image": "images/schwingMini.png",
 			"imageLink": "images/schwingFull.png",
-			"title": "Schwing"
+			"title": "Schwing",
+			"link": "https://conninfo.ru/ru/#case/schwing-stetter-seo"
 		},
 		{
 			"id": 5,
 			"image": "images/esteticMini.png",
 			"imageLink": "images/esteticFull.png",
-			"title": "Ол-эстетик.лаб"
+			"title": "Ол-эстетик.лаб",
+			"link": "https://ol-esteticlab.ru/"
 		},
 		{
 			"id": 6,
 			"image": "images/galaxyMini.jpg",
 			"imageLink": "images/galaxyFull.jpeg",
-			"title": "Созвездие"
+			"title": "Созвездие",
+			"link": "#"
 		},
 		{
 			"id": 7,
 			"image": "images/garantMini.png",
 			"imageLink": "images/garantFull.png",
-			"title": "Гарант"
+			"title": "Гарант",
+			"link": "https://ucgarant.ru/dang.html"
 		},
 		{
 			"id": 8,
 			"image": "images/carpetsMini.png",
 			"imageLink": "images/carpetsFull.png",
-			"title": "Аренда ковров"
+			"title": "Аренда ковров",
+			"link": "https://arendakovrov.com/"
 		},
 		{
 			"id": 9,
 			"image": "images/mercyMini.png",
 			"imageLink": "images/mercyFull.png",
-			"title": "Mercy"
+			"title": "Mercy",
+			"link": "#"
 		},
 		{
 			"id": 10,
 			"image": "images/garmoniyaMini.png",
 			"imageLink": "images/garmoniyaFull.png",
-			"title": "Garmoniya"
+			"title": "Гармония уюта",
+			"link": "https://garmonia.by/"
 		},
 		{
 			"id": 11,
 			"image": "images/zabeiMini.png",
 			"imageLink": "images/zabeiFull.png",
-			"title": "Забей"
+			"title": "Забей",
+			"link": "https://robohost.app/ru/"
 		},
 		{
 			"id": 12,
 			"image": "images/bwMini.png",
 			"imageLink": "images/bwFull.png",
-			"title": "B&W"
+			"title": "B&W",
+			"link": "#"
 		},
 		{
 			"id": 13,
 			"image": "images/crowndmeMini.png",
 			"imageLink": "images/crowndmeFull.png",
-			"title": "Crowdme"
+			"title": "Crowdme",
+			"link": "#"
 		},
 		{
 			"id": 14,
 			"image": "images/daisyMini.png",
 			"imageLink": "images/daisyFull.png",
-			"title": "Daisy"
+			"title": "Daisy",
+			"link": "#"
 		},
 		{
 			"id": 15,
 			"image": "images/steelMini.png",
 			"imageLink": "images/steelFull.png",
-			"title": "Северсталь"
+			"title": "Северсталь",
+			"link": "https://conninfo.ru/ru/#case/severstal"
 		},
 		{
 			"id": 16,
 			"image": "images/kouzyMini.png",
 			"imageLink": "images/kouzyFull.png",
-			"title": "Коузи74"
+			"title": "Коузи74",
+			"link": "https://xn--74-slceiy9a.xn--p1ai/"
 		},
 		{
 			"id": 17,
 			"image": "images/mnevodaMini.png",
 			"imageLink": "images/mnevodaFull.png",
-			"title": "Жемчужный край"
+			"title": "Жемчужный край",
+			"link": "https://mnevoda.ru/"
 		},
 		{
 			"id": 18,
 			"image": "images/monolitMini.png",
 			"imageLink": "images/monolitFull.png",
-			"title": "Mary's house"
+			"title": "Mary's house",
+			"link": "https://monolit-neva.ru/"
 		},
 		{
 			"id": 19,
 			"image": "images/neroMini.png",
 			"imageLink": "images/neroFull.png",
-			"title": "Nero"
+			"title": "Nero",
+			"link": "https://nerosite.ru/"
 		},
 		{
 			"id": 20,
 			"image": "images/onehost.jpeg",
 			"imageLink": "images/onehostFull.jpeg",
-			"title": "Onehost"
+			"title": "Onehost",
+			"link": "#"
 		},
 		{
 			"id": 21,
 			"image": "images/potolokMini.png",
 			"imageLink": "images/potolokFull.png",
-			"title": "Потол'ОК"
+			"title": "Потол'ОК",
+			"link": "https://potolokprosto.ru/"
 		},
 		{
 			"id": 22,
 			"image": "images/sanicsMini.png",
 			"imageLink": "images/sanicsFull.png",
-			"title": "Саникс"
+			"title": "Саникс",
+			"link": "#"
 		},
 		{
 			"id": 23,
 			"image": "images/serv.hostMini.png",
 			"imageLink": "images/serv.hostFull.png",
-			"title": "Serv.host"
+			"title": "Serv.host",
+			"link": "https://serv.host/"
 		},
 		{
 			"id": 24,
 			"image": "images/studioMini.png",
 			"imageLink": "images/studioFull.png",
-			"title": "Studio8"
+			"title": "Studio8",
+			"link": "#"
 		},
 		{
 			"id": 25,
 			"image": "images/toxinMini.png",
 			"imageLink": "images/toxinFull.png",
-			"title": "Toxin"
+			"title": "Toxin",
+			"link": "#"
 		},
 		{
 			"id": 26,
 			"image": "images/brainscloudMini.png",
 			"imageLink": "images/brainscloudFull.png",
-			"title": "Brainscloud"
+			"title": "Brainscloud",
+			"link": "#"
 		},
 		{
 			"id": 27,
 			"image": "images/fastsearchMini.png",
 			"imageLink": "images/fastsearchFull.png",
-			"title": "Fastsearch"
+			"title": "Fastsearch",
+			"link": "#"
 		},
 		{
 			"id": 28,
 			"image": "images/mavicMini.png",
 			"imageLink": "images/mavicFull.png",
-			"title": "Mavic"
+			"title": "Mavic",
+			"link": "#"
 		},
 		{
 			"id": 29,
 			"image": "images/tedistourMini.png",
 			"imageLink": "images/tedistourFull.png",
-			"title": "Tedis Tour"
+			"title": "Tedis Tour",
+			"link": "#"
 		},
 		{
 			"id": 30,
 			"image": "images/grossmarketMini.png",
 			"imageLink": "images/grossmarketFull.png",
-			"title": "Гросс Маркет"
+			"title": "Гросс Маркет",
+			"link": "#"
 		},
 		{
 			"id": 31,
 			"image": "images/fusoMini.png",
 			"imageLink": "images/fusoFull.png",
-			"title": "FUSO"
+			"title": "FUSO",
+			"link": "https://conninfo.ru/ru/#case/fuso-seo"
 		},
 		{
 			"id": 32,
 			"image": "images/gravityMini.png",
 			"imageLink": "images/gravityFull.png",
-			"title": "Невесомость"
+			"title": "Невесомость",
+			"link": "http://batutparty.cb92052.tmweb.ru/kafe/"
 		},
 		{
 			"id": 33,
 			"image": "images/scaniaMini.png",
 			"imageLink": "images/scaniaFull.png",
-			"title": "SCANIA"
+			"title": "SCANIA",
+			"link": "https://conninfo.ru/ru/#case/scania-seo"
 		},
 		{
 			"id": 34,
 			"image": "images/sovinterMini.png",
 			"imageLink": "images/sovinterFull.png",
-			"title": "СовИнтерАвтоСервис"
+			"title": "СовИнтерАвтоСервис",
+			"link": "#"
 		}
 	]
 }

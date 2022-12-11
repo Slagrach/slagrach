@@ -211,7 +211,7 @@ readTextFile("json/data.json", function (text) {
 
 
   var createCard = function createCard(card) {
-    return "\n\t\t<div data-id=\"".concat(card.id, "\" class=\"portfolio__item item\">\n\t\t\t<div class=\"item__picture img\">\n\t\t\t\t<a class=\"item__link\" data-fancybox href=\"").concat(card.imageLink, "\">\n\t\t\t\t\t<img class=\"item__img\" src=\"").concat(card.image, "\" alt=\"\">\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t<span class=\"item__title\">").concat(card.id, " ").concat(card.title, "</span>\n\t\t</div>\n\t\t");
+    return "\n\t\t<div data-id=\"".concat(card.id, "\" class=\"portfolio__item item\">\n\t\t\t<div class=\"item__picture img\">\n\t\t\t\t<a class=\"item__link\" data-fancybox href=\"").concat(card.imageLink, "\">\n\t\t\t\t\t<img class=\"item__img\" src=\"").concat(card.image, "\" alt=\"\">\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t<a class=\"item__title\" href=\"").concat(card.link, "\" target=\"_blank\">").concat(card.title, "</a>\n\t\t</div>\n\t\t");
   };
 
   var renderCards = function renderCards(cards) {
