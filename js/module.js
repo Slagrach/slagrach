@@ -343,7 +343,7 @@ btnOnOff.addEventListener("click", onOff);
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
-/******/ 	
+/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
@@ -357,14 +357,14 @@ btnOnOff.addEventListener("click", onOff);
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
-/******/ 	
+/******/
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
+/******/
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
+/******/
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
@@ -6625,6 +6625,7 @@ validation.addField('#name', [{
   xhr.open('POST', 'mail.php', true);
   xhr.send(formData);
   event.target.reset();
+  eraseText();
 });
 
 function eraseText() {
@@ -6637,7 +6638,7 @@ function eraseText() {
   validation.refresh();
 }
 
-document.getElementById('reset').addEventListener('click', function () {
+document.querySelector('.form__button_reset').addEventListener('click', function () {
   eraseText();
 });
 $("#form-two").submit(function () {
@@ -6649,7 +6650,7 @@ $("#form-two").submit(function () {
     //Change
     data: th.serialize()
   }).done(function () {
-    alert("Thank you!");
+    // alert("Thank you!");
     setTimeout(function () {
       // Done Functions
       th.trigger("reset");
