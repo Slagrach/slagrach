@@ -258,8 +258,8 @@
 			"imageLink": "images/ipayFull.png",
 			"title": "I-Pay24",
 			"link": "https://slagrach.github.io/Ipay24/"
-		}
-		,{
+		},
+		{
 			"id": 37,
 			"image": "images/galaxyMini.jpg",
 			"imageLink": "images/galaxyFull.jpeg",
@@ -272,6 +272,6 @@
 			"imageLink": "images/mercyFull.png",
 			"title": "Mercy",
 			"link": "#"
-		},
+		}
 	]
 }
