@@ -2,45 +2,45 @@
 	"cards": [
 		{
 			"id": 1,
-			"image": "images/biceMini.png",
-			"imageLink": "images/biceFull.png",
-			"title": "Bice",
-			"link": "https://bice-russia.ru/ru/"
+			"image": "images/metarossaMini.png",
+			"imageLink": "images/metarossaFull.png",
+			"title": "Метаросса",
+			"link": "https://metarossa.wewu.ru/"
 		},
 		{
 			"id": 2,
-			"image": "images/cubeMini.png",
-			"imageLink": "images/cubeFull.png",
-			"title": "Куб",
-			"link": "https://good-people-studio.ru/cube/"
+			"image": "images/carpetsMini.png",
+			"imageLink": "images/carpetsFull.png",
+			"title": "Аренда ковров",
+			"link": "https://arendakovrov.com/"
 		},
 		{
 			"id": 3,
-			"image": "images/adspuppyMini.png",
-			"imageLink": "images/adspuppyFull.png",
-			"title": "Adspuppy",
-			"link": "#"
-		},
-		{
-			"id": 4,
-			"image": "images/schwingMini.png",
-			"imageLink": "images/schwingFull.png",
-			"title": "Schwing",
-			"link": "https://conninfo.ru/ru/#case/schwing-stetter-seo"
-		},
-		{
-			"id": 5,
 			"image": "images/esteticMini.png",
 			"imageLink": "images/esteticFull.png",
 			"title": "Ол-эстетик.лаб",
 			"link": "https://ol-esteticlab.ru/"
 		},
 		{
+			"id": 4,
+			"image": "images/monolitMini.png",
+			"imageLink": "images/monolitFull.png",
+			"title": "Mary's house",
+			"link": "https://monolit-neva.ru/"
+		},
+		{
+			"id": 5,
+			"image": "images/mnevodaMini.png",
+			"imageLink": "images/mnevodaFull.png",
+			"title": "Жемчужный край",
+			"link": "https://mnevoda.ru/"
+		},
+		{
 			"id": 6,
-			"image": "images/galaxyMini.jpg",
-			"imageLink": "images/galaxyFull.jpeg",
-			"title": "Созвездие",
-			"link": "#"
+			"image": "images/pilesMini.png",
+			"imageLink": "images/pilesFull.png",
+			"title": "Сваи.рф",
+			"link": "https://xn--80adta5b.xn--p1ai/"
 		},
 		{
 			"id": 7,
@@ -51,17 +51,17 @@
 		},
 		{
 			"id": 8,
-			"image": "images/carpetsMini.png",
-			"imageLink": "images/carpetsFull.png",
-			"title": "Аренда ковров",
-			"link": "https://arendakovrov.com/"
+			"image": "images/cubeMini.png",
+			"imageLink": "images/cubeFull.png",
+			"title": "Куб",
+			"link": "https://good-people-studio.ru/cube/"
 		},
 		{
 			"id": 9,
-			"image": "images/mercyMini.png",
-			"imageLink": "images/mercyFull.png",
-			"title": "Mercy",
-			"link": "#"
+			"image": "images/dentisyMini.png",
+			"imageLink": "images/dentisyFull.png",
+			"title": "Доступная стоматология",
+			"link": "https://implantatsiya-zub54.ru/"
 		},
 		{
 			"id": 10,
@@ -114,24 +114,24 @@
 		},
 		{
 			"id": 17,
-			"image": "images/mnevodaMini.png",
-			"imageLink": "images/mnevodaFull.png",
-			"title": "Жемчужный край",
-			"link": "https://mnevoda.ru/"
+			"image": "images/adspuppyMini.png",
+			"imageLink": "images/adspuppyFull.png",
+			"title": "Adspuppy",
+			"link": "#"
 		},
 		{
 			"id": 18,
-			"image": "images/monolitMini.png",
-			"imageLink": "images/monolitFull.png",
-			"title": "Mary's house",
-			"link": "https://monolit-neva.ru/"
-		},
-		{
-			"id": 19,
 			"image": "images/neroMini.png",
 			"imageLink": "images/neroFull.png",
 			"title": "Nero",
 			"link": "https://nerosite.ru/"
+		},
+		{
+			"id": 19,
+			"image": "images/schwingMini.png",
+			"imageLink": "images/schwingFull.png",
+			"title": "Schwing",
+			"link": "https://conninfo.ru/ru/#case/schwing-stetter-seo"
 		},
 		{
 			"id": 20,
@@ -237,6 +237,41 @@
 			"imageLink": "images/sovinterFull.png",
 			"title": "СовИнтерАвтоСервис",
 			"link": "#"
+		},
+		{
+			"id": 35,
+			"image": "images/biceMini.png",
+			"imageLink": "images/biceFull.png",
+			"title": "Bice",
+			"link": "https://bice-russia.ru/ru/"
+		},
+		{
+			"id": 36,
+			"image": "images/primeMini.png",
+			"imageLink": "images/primeFull.png",
+			"title": "ПремьерАвто",
+			"link": "#"
+		},
+		{
+			"id": 36,
+			"image": "images/ipayMini.png",
+			"imageLink": "images/ipayFull.png",
+			"title": "I-Pay24",
+			"link": "https://slagrach.github.io/Ipay24/"
 		}
+		,{
+			"id": 37,
+			"image": "images/galaxyMini.jpg",
+			"imageLink": "images/galaxyFull.jpeg",
+			"title": "Созвездие",
+			"link": "#"
+		},
+		{
+			"id": 38,
+			"image": "images/mercyMini.png",
+			"imageLink": "images/mercyFull.png",
+			"title": "Mercy",
+			"link": "#"
+		},
 	]
 }
