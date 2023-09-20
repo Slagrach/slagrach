@@ -58,220 +58,262 @@
 		},
 		{
 			"id": 9,
-			"image": "images/dentisyMini.png",
-			"imageLink": "images/dentisyFull.png",
-			"title": "Доступная стоматология",
+			"image": "images/zubMini.png",
+			"imageLink": "images/zubFull.png",
+			"title": "Доступная Стоматология",
 			"link": "https://implantatsiya-zub54.ru/"
 		},
 		{
 			"id": 10,
+			"image": "images/atcMini.png",
+			"imageLink": "images/atcFull.png",
+			"title": "ATC",
+			"link": "https://ats-log.ru/"
+		},
+		{
+			"id": 11,
+			"image": "images/vetMini.png",
+			"imageLink": "images/vetFull.png",
+			"title": "ВЕТДОМ",
+			"link": "https://smilepet.ru/"
+		},
+		{
+			"id": 12,
+			"image": "images/cocolovaMini.png",
+			"imageLink": "images/cocolovaFull.png",
+			"title": "ANNA",
+			"link": "https://xn--80adxenbb3d.xn--p1ai/"
+		},
+		{
+			"id": 13,
+			"image": "images/sanicsMini.png",
+			"imageLink": "images/sanicsFull.png",
+			"title": "Саникс",
+			"link": "https://saniks.ru/"
+		},
+		{
+			"id": 14,
 			"image": "images/garmoniyaMini.png",
 			"imageLink": "images/garmoniyaFull.png",
 			"title": "Гармония уюта",
 			"link": "https://garmonia.by/"
 		},
 		{
-			"id": 11,
+			"id": 15,
 			"image": "images/zabeiMini.png",
 			"imageLink": "images/zabeiFull.png",
 			"title": "Забей",
 			"link": "https://robohost.app/ru/"
 		},
 		{
-			"id": 12,
+			"id": 16,
+			"image": "images/santehnikMini.png",
+			"imageLink": "images/santehnikFull.png",
+			"title": "Сантехник на дом",
+			"link": "https://santehnik-na-dom.com/"
+		},
+		{
+			"id": 17,
 			"image": "images/bwMini.png",
 			"imageLink": "images/bwFull.png",
 			"title": "B&W",
 			"link": "#"
 		},
 		{
-			"id": 13,
+			"id": 18,
 			"image": "images/crowndmeMini.png",
 			"imageLink": "images/crowndmeFull.png",
 			"title": "Crowdme",
 			"link": "#"
 		},
 		{
-			"id": 14,
+			"id": 19,
 			"image": "images/daisyMini.png",
 			"imageLink": "images/daisyFull.png",
 			"title": "Daisy",
 			"link": "#"
 		},
 		{
-			"id": 15,
+			"id": 20,
 			"image": "images/steelMini.png",
 			"imageLink": "images/steelFull.png",
 			"title": "Северсталь",
 			"link": "https://conninfo.ru/ru/#case/severstal"
 		},
 		{
-			"id": 16,
+			"id": 21,
 			"image": "images/kouzyMini.png",
 			"imageLink": "images/kouzyFull.png",
 			"title": "Коузи74",
 			"link": "https://xn--74-slceiy9a.xn--p1ai/"
 		},
 		{
-			"id": 17,
+			"id": 22,
 			"image": "images/adspuppyMini.png",
 			"imageLink": "images/adspuppyFull.png",
 			"title": "Adspuppy",
 			"link": "#"
 		},
 		{
-			"id": 18,
+			"id": 23,
 			"image": "images/neroMini.png",
 			"imageLink": "images/neroFull.png",
 			"title": "Nero",
 			"link": "https://nerosite.ru/"
 		},
 		{
-			"id": 19,
+			"id": 24,
 			"image": "images/schwingMini.png",
 			"imageLink": "images/schwingFull.png",
 			"title": "Schwing",
 			"link": "https://conninfo.ru/ru/#case/schwing-stetter-seo"
 		},
 		{
-			"id": 20,
+			"id": 25,
 			"image": "images/onehost.jpeg",
 			"imageLink": "images/onehostFull.jpeg",
 			"title": "Onehost",
 			"link": "#"
 		},
 		{
-			"id": 21,
+			"id": 26,
 			"image": "images/potolokMini.png",
 			"imageLink": "images/potolokFull.png",
 			"title": "Потол'ОК",
 			"link": "https://potolokprosto.ru/"
 		},
 		{
-			"id": 22,
-			"image": "images/sanicsMini.png",
-			"imageLink": "images/sanicsFull.png",
-			"title": "Саникс",
+			"id": 27,
+			"image": "images/mercyMini.png",
+			"imageLink": "images/mercyFull.png",
+			"title": "Mercy",
 			"link": "#"
 		},
 		{
-			"id": 23,
+			"id": 28,
 			"image": "images/serv.hostMini.png",
 			"imageLink": "images/serv.hostFull.png",
 			"title": "Serv.host",
 			"link": "https://serv.host/"
 		},
 		{
-			"id": 24,
+			"id": 29,
 			"image": "images/studioMini.png",
 			"imageLink": "images/studioFull.png",
 			"title": "Studio8",
 			"link": "#"
 		},
 		{
-			"id": 25,
+			"id": 30,
 			"image": "images/toxinMini.png",
 			"imageLink": "images/toxinFull.png",
 			"title": "Toxin",
 			"link": "#"
 		},
 		{
-			"id": 26,
+			"id": 31,
 			"image": "images/brainscloudMini.png",
 			"imageLink": "images/brainscloudFull.png",
 			"title": "Brainscloud",
 			"link": "#"
 		},
 		{
-			"id": 27,
+			"id": 32,
 			"image": "images/fastsearchMini.png",
 			"imageLink": "images/fastsearchFull.png",
 			"title": "Fastsearch",
 			"link": "#"
 		},
 		{
-			"id": 28,
+			"id": 33,
 			"image": "images/mavicMini.png",
 			"imageLink": "images/mavicFull.png",
 			"title": "Mavic",
 			"link": "#"
 		},
 		{
-			"id": 29,
+			"id": 34,
 			"image": "images/tedistourMini.png",
 			"imageLink": "images/tedistourFull.png",
 			"title": "Tedis Tour",
 			"link": "#"
 		},
 		{
-			"id": 30,
+			"id": 35,
 			"image": "images/grossmarketMini.png",
 			"imageLink": "images/grossmarketFull.png",
 			"title": "Гросс Маркет",
 			"link": "#"
 		},
 		{
-			"id": 31,
+			"id": 36,
 			"image": "images/fusoMini.png",
 			"imageLink": "images/fusoFull.png",
 			"title": "FUSO",
 			"link": "https://conninfo.ru/ru/#case/fuso-seo"
 		},
 		{
-			"id": 32,
+			"id": 37,
 			"image": "images/gravityMini.png",
 			"imageLink": "images/gravityFull.png",
 			"title": "Невесомость",
 			"link": "http://batutparty.cb92052.tmweb.ru/kafe/"
 		},
 		{
-			"id": 33,
+			"id": 38,
 			"image": "images/scaniaMini.png",
 			"imageLink": "images/scaniaFull.png",
 			"title": "SCANIA",
 			"link": "https://conninfo.ru/ru/#case/scania-seo"
 		},
 		{
-			"id": 34,
+			"id": 39,
 			"image": "images/sovinterMini.png",
 			"imageLink": "images/sovinterFull.png",
 			"title": "СовИнтерАвтоСервис",
 			"link": "#"
 		},
 		{
-			"id": 35,
+			"id": 40,
 			"image": "images/biceMini.png",
 			"imageLink": "images/biceFull.png",
 			"title": "Bice",
 			"link": "https://bice-russia.ru/ru/"
 		},
 		{
-			"id": 36,
+			"id": 41,
 			"image": "images/primeMini.png",
 			"imageLink": "images/primeFull.png",
 			"title": "ПремьерАвто",
 			"link": "#"
 		},
 		{
-			"id": 36,
+			"id": 42,
 			"image": "images/ipayMini.png",
 			"imageLink": "images/ipayFull.png",
 			"title": "I-Pay24",
 			"link": "https://slagrach.github.io/Ipay24/"
 		},
 		{
-			"id": 37,
+			"id": 43,
 			"image": "images/galaxyMini.jpg",
 			"imageLink": "images/galaxyFull.jpeg",
 			"title": "Созвездие",
 			"link": "#"
 		},
 		{
-			"id": 38,
-			"image": "images/mercyMini.png",
-			"imageLink": "images/mercyFull.png",
-			"title": "Mercy",
-			"link": "#"
+			"id": 44,
+			"image": "images/marketingMini.png",
+			"imageLink": "images/marketingFull.png",
+			"title": "Маркетинг-Партнер",
+			"link": "https://slagrach.github.io/Marketing/"
+		},
+		{
+			"id": 45,
+			"image": "images/traxMini.png",
+			"imageLink": "images/traxFull.png",
+			"title": "Тракс Восток Рус",
+			"link": "https://slagrach.github.io/TraxEast/"
 		}
 	]
 }
