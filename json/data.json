@@ -314,6 +314,13 @@
 			"imageLink": "images/traxFull.png",
 			"title": "Тракс Восток Рус",
 			"link": "https://slagrach.github.io/TraxEast/"
+		},
+		{
+			"id": 46,
+			"image": "images/s.hostMini.png",
+			"imageLink": "images/s.hostFull.png",
+			"title": "Serv.Host",
+			"link": "#"
 		}
 	]
 }
